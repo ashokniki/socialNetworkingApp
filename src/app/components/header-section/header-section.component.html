@@ -1,0 +1,31 @@
+<div class="timeline-cover">
+  <!--Timeline Menu for Large Screens-->
+  <app-nav-bar></app-nav-bar>
+  <!--Timeline Menu for Large Screens End-->
+
+  <!--Timeline Menu for Small Screens-->
+
+  <div class="loginSection">
+      <ul>
+        <li> <a href="">Login</a> </li>
+        <li> | </li>
+        <li> <a (click)="registrationForm()">Registration</a> </li>
+      </ul>
+  </div>
+  <div class="navbar-mobile hidden-lg hidden-md">
+    <div class="profile-info">
+      <img
+        src="/assets/images/users/user-1.jpg"
+        alt=""
+        class="img-responsive profile-photo"
+      />
+      <h4>Ashok Muthu</h4>
+      <p class="text-muted">Creative Director</p>
+    </div>
+   
+  </div>
+ 
+</div>
+
+
+<app-registration-form *ngIf="showRegistrationForm" (hidePopup)= "showRegistrationForm = false"></app-registration-form>

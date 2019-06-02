@@ -1,0 +1,56 @@
+<div
+  id="uploadpopup"
+  class="modal fade commonpopup in popupPopupBg"
+  role="dialog"
+  style="display: block;"
+>
+  <div class="modal-dialog animate one fadeInUp">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="widget_header">
+        <span class="widget_header_txt">Add Friends</span>
+        <span class="widget_header_img" style="cursor:pointer;">
+          &nbsp;<span (click)="closePopup()"
+            ><img src="assets/images/closeBtnNew.png"/></span
+        ></span>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="email">First Name :</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Last Name:</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" />
+        </div>
+      </div>
+      <div class="text-right">
+        <button
+          type="button"
+          class="btn btn-primary saveBtnNew"
+          data-dismiss="modal"
+          style="margin-right:10px;"
+        >
+          Add Friend
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary cancelBtnNew"
+          data-dismiss="modal"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

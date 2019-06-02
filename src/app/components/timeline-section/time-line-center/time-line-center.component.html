@@ -1,0 +1,71 @@
+<div class="col-md-7">
+  <app-post-section></app-post-section>
+  <!-- Post Content
+    ================================================= -->
+
+  <div class="post-content" *ngFor="let post of getSectionData">
+    <div class="post-date hidden-xs hidden-sm">
+      <h5>{{ post.userName }}</h5>
+      <p class="text-grey">{{ post.publishedTime }}</p>
+    </div>
+
+    <img
+      src="{{ post.coverPhoto }}"
+      alt="post-image"
+      class="img-responsive post-image"
+    />
+    <div class="post-container">
+      <img
+        src="/assets/images/user/user2.png"
+        alt="user"
+        class="profile-photo-md pull-left"
+      />
+      <div class="post-detail">
+        <div class="user-info">
+          <h5>
+            <a href="timeline.html" class="profile-link">Ashok Muthu</a>
+            <span class="following">following</span>
+          </h5>
+          <p class="text-muted">
+            Published a photo about {{ post.publishedTime }}
+          </p>
+        </div>
+        <div class="reaction">
+          <a class="btn text-green"
+            ><i class="fa fa-thumbs-up"></i> {{ post.likes[0].thumpsUp }}</a
+          >
+          <a class="btn text-red"
+            ><i class="fa fa-thumbs-down"></i> {{ post.likes[1].thumpsDown }}</a
+          >
+        </div>
+        <div class="line-divider"></div>
+        <div class="post-text">
+          <p>
+            {{ post.message }}
+          </p>
+        </div>
+        <div class="line-divider"></div>
+
+        
+        <div class="post-comment" *ngFor="let reply of post.replayMessages">
+          <img
+            src="/assets/images/user/user3.png"
+            alt=""
+            class="profile-photo-sm"
+          />
+          <p>
+            <a class="profile-link">{{ reply.userName }} </a>
+            <i class="em em-laughing"></i>
+            {{ reply.description }}
+          </p>
+        </div>
+       
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

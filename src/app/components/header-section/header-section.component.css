@@ -1,0 +1,15 @@
+.loginSection{
+    position: relative;
+    top: 41px;
+}
+.loginSection ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.loginSection ul li{
+    padding: 4px 8px;
+    display: inline-table;
+    
+}
+.loginSection ul li a{ font-size:14px;font-weight: bold; }

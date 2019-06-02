@@ -1,0 +1,39 @@
+/*==================================================
+   Post Date
+  ==================================================*/
+
+.post-content {
+  position: relative;
+  overflow: visible;
+}
+
+.post-content::before {
+  content: "";
+  position: absolute;
+  background: none;
+  width: 1px;
+  height: 98%;
+  left: -145px;
+  border-left: 2px solid #8dc63f;
+  top: 15px;
+}
+.post-content .post-date {
+  position: absolute;
+  margin-left: -125px;
+}
+
+.post-content .post-date::before {
+  content: "";
+  background: #8dc63f;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  left: -30px;
+  top: 10px;
+  border: 2px solid #fff;
+}
+
+.post-content img.post-image {
+  border-radius: 4px 4px 0 0;
+}

@@ -1,0 +1,101 @@
+
+{
+    "username": "AshokMuthu",
+    "name": "Ashok Muthu",
+    "profile_url": "https:socialNetprofile_19191702_75sq_1326342209.jpg",
+    "likes": {
+      "Totalcount": 123254,
+      "friendsList": "300"
+    },
+    "is_active": true,
+    "postSection": {
+        "Post1": {
+            "publishedTime" : "19 hours ago",
+            "postMessage" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor",
+            "postliked": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User2" : {
+                    "UserName" : "Sankarlal",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User3" : {
+                    "UserName" : "Suriya",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+            "postDisliked": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User2" : {
+                    "UserName" : "Sankarlal",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User3" : {
+                    "UserName" : "Suriya",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+
+            "replyMessages": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "Message" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor"
+                },
+                "User2" : {
+                    "UserName" : "Rajkumar",
+                    "Message" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor"
+                }
+                }]
+                }]
+            }]
+        },
+        "Post2": {
+            "publishedTime" : "19 hours ago",
+            "postMessage" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor",
+            "postliked": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User2" : {
+                    "UserName" : "Sankarlal",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User3" : {
+                    "UserName" : "Suriya",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+            "postDisliked": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User2" : {
+                    "UserName" : "Sankarlal",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+                "User3" : {
+                    "UserName" : "Suriya",
+                    "UserPhoto" : "https:socialNetprofile_19191702_75sq_1326342209.jpg"
+                },
+
+            "replyMessages": [{
+                "User1" : {
+                    "UserName" : "Rajkumar",
+                    "Message" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor"
+                },
+                "User2" : {
+                    "UserName" : "Rajkumar",
+                    "Message" : "Duis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolorDuis aute irure dolor"
+                }
+                }]
+                }]
+            }]
+        }
+  }
+}
+social_networking.json
+Displaying social_networking.json.

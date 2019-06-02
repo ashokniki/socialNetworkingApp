@@ -1,0 +1,31 @@
+<div class="col-md-7">
+  <!-- Friend List
+    ================================================= -->
+  <div class="friend-list">
+    <div class="row">
+      <div class="col-md-6 col-sm-6" *ngFor="let fl of fldata">
+        <div class="friend-card">
+          <img
+            src="{{fl.profileCover}}"
+            alt="profile-cover"
+            class="img-responsive cover"
+          />
+          <div class="card-info">
+            <img
+              src="{{fl.userPhoto}}"
+              alt="user"
+              class="profile-photo-lg"
+            />
+            <div class="friend-info">
+              <a href="#" class="pull-right text-green">{{fl.friendType[0].type1}}</a>
+              <h5>
+                <a href="timeline.html" class="profile-link">{{fl.userName}}</a>
+              </h5>
+              <p>{{fl.destination}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
