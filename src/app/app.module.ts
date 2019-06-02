@@ -24,6 +24,8 @@ import { LoginFormComponent } from './components/header-section/login-form/login
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { SubCommentsComponent } from './components/timeline-section/time-line-center/sub-comments/sub-comments.component';
+import { MainCommentsComponent } from './components/timeline-section/time-line-center/main-comments/main-comments.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { ToastrModule } from 'ngx-toastr';
     PostSectionComponent,
     RegistrationFormComponent,
     LoginFormComponent,
+    SubCommentsComponent,
+    MainCommentsComponent,
     
   ],
   imports: [BrowserModule, AppRoutingModule , FormsModule, ReactiveFormsModule, BrowserAnimationsModule, ToastrModule.forRoot()],

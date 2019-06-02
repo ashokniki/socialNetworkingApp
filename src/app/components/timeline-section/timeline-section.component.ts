@@ -19,12 +19,41 @@ export class TimelineSectionComponent implements OnInit {
           userName: "Siraj",
           description:
             "Hi Ashok,I am really happy to see this. Have to learn more.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
+
         },
         {
           userName: "Shankarlal",
           description: "Keep learning thambi.. have to acheive lot here.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         }
       ]
     },
@@ -41,12 +70,40 @@ export class TimelineSectionComponent implements OnInit {
           userName: "Siraj",
           description:
             "Hi Ashok,I am really happy to see this. Have to learn more.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         },
         {
           userName: "Shankarlal",
           description: "Keep learning thambi.. have to acheive lot here.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         }
       ]
     },
@@ -62,12 +119,40 @@ export class TimelineSectionComponent implements OnInit {
           userName: "Siraj",
           description:
             "Hi Ashok,I am really happy to see this. Have to learn more.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         },
         {
           userName: "Shankarlal",
           description: "Keep learning thambi.. have to acheive lot here.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Siraj",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            {
+              userName: "Siraj",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         }
       ]
     },
@@ -84,12 +169,40 @@ export class TimelineSectionComponent implements OnInit {
           userName: "Siraj",
           description:
             "Hi Ashok,I am really happy to see this. Have to learn more.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Vijay",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            { 
+              userName: "Suresh",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         },
         {
           userName: "Shankarlal",
           description: "Keep learning thambi.. have to acheive lot here.",
-          time: "15 mins ago"
+          time: "15 mins ago",
+          replaymessageUser: [
+            {
+              userName: "Siraj",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            },
+            {
+              userName: "Siraj",
+              coverPhoto: "../../assets/images/photo3.jpg",
+              publishedTime: "15 mins ago",
+              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+            }
+          ]
         }
       ]
     }
