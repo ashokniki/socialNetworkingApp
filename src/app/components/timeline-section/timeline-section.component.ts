@@ -23,18 +23,19 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
-
         },
         {
           userName: "Shankarlal",
@@ -43,15 +44,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
               coverPhoto: "../../assets/images/photo3.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         }
@@ -63,8 +66,7 @@ export class TimelineSectionComponent implements OnInit {
         "https://newevolutiondesigns.com/images/freebies/hd-wallpaper-1.jpg",
       likes: [{ thumpsUp: "10" }, { thumpsDown: "13" }],
       publishedTime: "15 mins ago",
-      message:
-        "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+      message: "hi Guys, This is my first post here.I am really happy to work.",
       replayMessages: [
         {
           userName: "Siraj",
@@ -74,15 +76,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
               coverPhoto: "../../assets/images/photo3.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         },
@@ -93,15 +97,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         }
@@ -112,8 +118,7 @@ export class TimelineSectionComponent implements OnInit {
       coverPhoto: "https://wallpapercave.com/wp/HeLC3lH.jpg",
       likes: [{ thumpsUp: "50" }, { thumpsDown: "2" }],
       publishedTime: "15 mins ago",
-      message:
-        "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+      message: "hi Guys, This is my first post here.I am really happy to work.",
       replayMessages: [
         {
           userName: "Siraj",
@@ -123,15 +128,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
               coverPhoto: "../../assets/images/photo3.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         },
@@ -142,15 +149,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Siraj",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
             {
               userName: "Siraj",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         }
@@ -162,8 +171,7 @@ export class TimelineSectionComponent implements OnInit {
         "https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-HD-1080P-3D-Download.jpg",
       likes: [{ thumpsUp: "50" }, { thumpsDown: "2" }],
       publishedTime: "15 mins ago",
-      message:
-        "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+      message: "hi Guys, This is my first post here.I am really happy to work.",
       replayMessages: [
         {
           userName: "Siraj",
@@ -173,15 +181,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Vijay",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo1.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
-            { 
+            {
               userName: "Suresh",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work ."
             }
           ]
         },
@@ -192,15 +202,17 @@ export class TimelineSectionComponent implements OnInit {
           replaymessageUser: [
             {
               userName: "Siraj",
-              coverPhoto: "../../assets/images/photo3.jpg",
+              coverPhoto: "../../assets/images/photo2.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             },
             {
               userName: "Siraj",
               coverPhoto: "../../assets/images/photo3.jpg",
               publishedTime: "15 mins ago",
-              message:  "hi Guys, This is my first post here.I am really happy to work on this API Integration. I get lot ideas from Siraj master",
+              message:
+                "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
         }
@@ -211,6 +223,6 @@ export class TimelineSectionComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    console.log('test lre')
+    console.log("test lre");
   }
 }

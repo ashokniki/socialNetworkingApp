@@ -46,25 +46,10 @@
         </div>
         <div class="line-divider"></div>
 
-        <div *ngFor="let reply of post.replayMessages">
-          <div class="post-comment">
-            <img
-              src="/assets/images/user/user3.png"
-              alt=""
-              class="profile-photo-sm"
-            />
-            <p>
-              <a class="profile-link">{{ reply.userName }} </a>
-              <i class="em em-laughing"></i>
-              {{ reply.description }}
-            </p>
-          </div>
-
-          <!-- <app-main-comments [mainfeedback]=""></app-main-comments> -->
-
-          <app-sub-comments [feedback]="replyUser"
-          *ngFor="let replyUser of reply.replaymessageUser"
-          ></app-sub-comments>
+        <div *ngIf="post.replayMessages?.length > 0">
+          <app-main-comments
+            [mainfeedback]="post.replayMessages"
+          ></app-main-comments>
         </div>
       </div>
     </div>

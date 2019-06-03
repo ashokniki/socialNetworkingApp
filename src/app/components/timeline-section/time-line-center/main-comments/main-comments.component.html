@@ -1,12 +1,15 @@
-<div class="post-comment">
-  <img
-    src="/assets/images/user/user3.png"
-    alt=""
-    class="profile-photo-sm"
-  />
-  <p>
-    <a class="profile-link">{{ reply.userName }} </a>
-    <i class="em em-laughing"></i>
-    {{ reply.description }}
-  </p>
+<div *ngFor="let firstlevel of mainfeedback">
+  <div class="post-comment">
+    <img src="/assets/images/user/user1.png" alt="" class="profile-photo-sm" />
+    <p>
+      <a class="profile-link">{{ firstlevel.userName }} </a>
+      <i class="em em-laughing"></i>
+      {{ firstlevel.description }}
+    </p>
+  </div>
+
+  <app-sub-comments
+    [feedback]="secondLevel"
+    *ngFor="let secondLevel of firstlevel.replaymessageUser"
+  ></app-sub-comments>
 </div>
