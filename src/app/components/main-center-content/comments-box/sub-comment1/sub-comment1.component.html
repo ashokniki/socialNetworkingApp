@@ -1,0 +1,13 @@
+<div *ngFor="let sl of secondLevel.replaymessageUser">
+<div class="post-comment" style="padding-left: 35px;" >
+    <img src="{{ sl.coverPhoto }}" alt="" class="profile-photo-sm" />
+    <p>
+      <a class="profile-link">{{ sl.userName }} </a>
+      <i class="em em-laughing"></i>
+      {{ sl.message }}
+    </p>
+  </div>
+  
+
+<app-sub-comment2 [lastLevel]="sl"></app-sub-comment2>
+</div>

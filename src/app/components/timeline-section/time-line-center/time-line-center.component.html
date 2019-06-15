@@ -9,11 +9,11 @@
       <p class="text-grey">{{ post.publishedTime }}</p>
     </div>
 
-    <img
-      src="{{ post.coverPhoto }}"
-      alt="post-image"
-      class="img-responsive post-image"
-    />
+    <app-image-box
+      [imgBox]="post"
+      *ngIf="post.coverPhoto?.length > 0"
+    ></app-image-box>
+
     <div class="post-container">
       <img
         src="/assets/images/user/user2.png"
@@ -21,37 +21,21 @@
         class="profile-photo-md pull-left"
       />
       <div class="post-detail">
-        <div class="user-info">
-          <h5>
-            <a href="timeline.html" class="profile-link">Ashok Muthu</a>
-            <span class="following">following</span>
-          </h5>
-          <p class="text-muted">
-            Published a photo about {{ post.publishedTime }}
-          </p>
-        </div>
-        <div class="reaction">
-          <a class="btn text-green"
-            ><i class="fa fa-thumbs-up"></i> {{ post.likes[0].thumpsUp }}</a
-          >
-          <a class="btn text-red"
-            ><i class="fa fa-thumbs-down"></i> {{ post.likes[1].thumpsDown }}</a
-          >
-        </div>
-        <div class="line-divider"></div>
-        <div class="post-text">
-          <p>
-            {{ post.message }}
-          </p>
-        </div>
-        <div class="line-divider"></div>
+        <app-content-box
+          [contentBox]="post"
+          *ngIf="post.message?.length > 0"
+        ></app-content-box>
 
-        <div *ngIf="post.replayMessages?.length > 0">
-          <app-main-comments
-            [mainfeedback]="post.replayMessages"
-          ></app-main-comments>
-        </div>
+        <app-main-comments
+          [mainfeedback]="post.replayMessages"
+          *ngIf="post.replayMessages?.length > 0"
+        ></app-main-comments>
       </div>
     </div>
+
+    <app-polling-section
+      [pollContent]="post"
+      *ngIf="post.category == 3"
+    ></app-polling-section>
   </div>
 </div>

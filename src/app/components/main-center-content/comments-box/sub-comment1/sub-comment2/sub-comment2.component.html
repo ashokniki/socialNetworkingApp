@@ -1,0 +1,8 @@
+<div class="post-comment" style="padding-left: 35px;" *ngFor="let ll of lastLevel.replaylastUser">
+    <img src="{{ ll.coverPhoto }}" alt="" class="profile-photo-sm" />
+    <p>
+      <a class="profile-link">{{ ll.userName }} </a>
+      <i class="em em-laughing"></i>
+      {{ ll.message }}
+    </p>
+  </div>

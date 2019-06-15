@@ -1,0 +1,15 @@
+<div *ngFor="let fldata of postCommands">
+  <div class="post-comment">
+    <img src="/assets/images/user/user1.png" alt="" class="profile-photo-sm" />
+    <p>
+      <a class="profile-link">{{ fldata.userName }} </a>
+      <i class="em em-laughing"></i>
+      {{ fldata.description }}
+    </p>
+  </div>
+
+  <!-- <app-sub-comments
+    [secondLevel]="sl"
+    *ngFor="let sl of fdata.replaymessageUser"
+  ></app-sub-comments>
+</div> -->

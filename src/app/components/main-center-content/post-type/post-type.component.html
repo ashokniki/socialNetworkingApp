@@ -1,0 +1,5 @@
+
+
+<app-post-type-content [contentType]="postType" *ngIf="postType.category == '2'"></app-post-type-content>
+<app-post-type-image [imageType]="postType" *ngIf="postType.category == '1'"></app-post-type-image>
+<app-post-type-poll [pollType]="postType" *ngIf="postType.category == 3"></app-post-type-poll>

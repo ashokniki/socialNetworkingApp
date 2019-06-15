@@ -8,6 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class TimelineSectionComponent implements OnInit {
   postSectionData = [
     {
+      category: "1",
       userName: "AshokMuthu",
       coverPhoto: "../../assets/images/photo3.jpg",
       likes: [{ thumpsUp: "50" }, { thumpsDown: "2" }],
@@ -61,6 +62,7 @@ export class TimelineSectionComponent implements OnInit {
       ]
     },
     {
+      category: "images",
       userName: "Rajkumar",
       coverPhoto:
         "https://newevolutiondesigns.com/images/freebies/hd-wallpaper-1.jpg",
@@ -114,6 +116,7 @@ export class TimelineSectionComponent implements OnInit {
       ]
     },
     {
+      category: "images",
       userName: "Siraj",
       coverPhoto: "https://wallpapercave.com/wp/HeLC3lH.jpg",
       likes: [{ thumpsUp: "50" }, { thumpsDown: "2" }],
@@ -166,6 +169,7 @@ export class TimelineSectionComponent implements OnInit {
       ]
     },
     {
+      category: "images",
       userName: "Ganesh",
       coverPhoto:
         "https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-HD-1080P-3D-Download.jpg",
@@ -215,6 +219,30 @@ export class TimelineSectionComponent implements OnInit {
                 "hi Guys, This is my first post here.I am really happy to work."
             }
           ]
+        }
+      ]
+    },
+    {
+      category: 3,
+      categoryType: "polls",
+      userName: "Ganesh",
+      // coverPhoto:
+      //   "https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-HD-1080P-3D-Download.jpg",
+      // likes: [{ thumpsUp: "50" }, { thumpsDown: "2" }],
+      publishedTime: "15 mins ago",
+      questions: "what is different between UI and UX?",
+      answersList: [
+        {
+          answer: "UX is grapic related stuff. UI is something different",
+          count: "5"
+        },
+        {
+          answer: "UX is grapic related stuff. UI is something different",
+          count: "10"
+        },
+        {
+          answer: "UX is grapic related stuff. UI is something different",
+          count: "15"
         }
       ]
     }

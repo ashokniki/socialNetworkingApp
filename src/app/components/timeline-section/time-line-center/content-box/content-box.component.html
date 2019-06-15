@@ -1,0 +1,24 @@
+<div class="user-info">
+  <h5>
+    <a href="timeline.html" class="profile-link">Ashok Muthu</a>
+    <span class="following">following</span>
+  </h5>
+  <p class="text-muted">
+    Published a photo about {{ contentBox.publishedTime }}
+  </p>
+</div>
+<div class="reaction">
+  <a class="btn text-green"
+    ><i class="fa fa-thumbs-up"></i> {{ contentBox.likes[0].thumpsUp }}</a
+  >
+  <a class="btn text-red"
+    ><i class="fa fa-thumbs-down"></i> {{ contentBox.likes[1].thumpsDown }}</a
+  >
+</div>
+<div class="line-divider"></div>
+<div class="post-text">
+  <p>
+    {{ contentBox.message }}
+  </p>
+</div>
+<div class="line-divider"></div>

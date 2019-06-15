@@ -1,0 +1,31 @@
+
+
+<div id="page-contents" style="position: relative;">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-3 static">
+        
+      </div>
+      <div class="col-md-7">
+        <!-- Post Content
+        ================================================= -->
+
+        <div class="" style="margin-bottom:15px;" > 
+          <div class="post-content" *ngFor="let d of data">
+            <app-post-header [headerPost]="d"></app-post-header>
+            <app-post-type [postType]="d"></app-post-type>
+            <app-comments-box [postCommands]="d"></app-comments-box>
+
+          </div>
+        </div>
+        <div class="col-md-2 static">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div ></div>

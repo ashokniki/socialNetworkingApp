@@ -1,0 +1,15 @@
+<div *ngFor="let firstlevel of postCommands.replayMessages">
+    <div class="post-comment">
+      <img src="/assets/images/user/user1.png" alt="" class="profile-photo-sm" />
+      <p>
+        <a class="profile-link">{{ firstlevel.userName }} </a>
+        <i class="em em-laughing"></i>
+        {{ firstlevel.description }}
+
+        {{firstlevel}}
+      </p>
+    </div>
+
+
+<app-sub-comment1 [secondLevel]="firstlevel"></app-sub-comment1>
+</div>

@@ -1,0 +1,28 @@
+<div class="post-container">
+  <h3>Polling Section :</h3>
+  <p>Question: {{ pollContent.questions }}</p>
+  <div *ngFor="let polls of pollContent.answersList; let i = index">
+    <p>
+      Answer {{ i + 1 }} : {{ polls.answer }} - Count [
+      <!-- <span
+        [ngStyle]="{ 'background-color': polls.count == 5 ? 'green' : 'red' }"
+        >{{ polls.count }} </span
+      > -->
+
+      <span [ngStyle]="{ 'background-color': colorChange(polls.count) }"
+        >{{ polls.count }}
+      </span>
+
+      <!-- <span
+        [ngClass]="{
+          active: polls.count == 5,
+          blue: polls.count == 10,
+          green: polls.count == 15
+        }"
+        >{{ polls.count }}
+      </span> -->
+
+      ]
+    </p>
+  </div>
+</div>

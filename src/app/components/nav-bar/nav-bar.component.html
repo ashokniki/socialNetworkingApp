@@ -12,35 +12,23 @@
       </div>
     </div>
     <div class="col-md-9">
-      
       <ul class="list-inline profile-menu">
-        <li
-          [routerLinkActive]="'active'"
-          [routerLink]="['/']"
-        >
+        <li [routerLinkActive]="'active'" [routerLink]="['/']">
           <a>Timeline</a>
         </li>
-        <li
-          [routerLink]="['/about-section']"
-          [routerLinkActive]="'active'"
-        >
+        <li [routerLink]="['/about-section']" [routerLinkActive]="'active'">
           <a>About</a>
         </li>
-        <li
-          [routerLink]="['/album-section']"
-          [routerLinkActive]="'active'"
-        >
+        <li [routerLink]="['/album-section']" [routerLinkActive]="'active'">
           <a>Album</a>
         </li>
-        <li
-          [routerLink]="['/friend-section']"
-          [routerLinkActive]="'active'"
-        >
+        <li [routerLink]="['/friend-section']" [routerLinkActive]="'active'">
           <a>Friends</a>
         </li>
+        <li [routerLink]="['/timeline-section']" [routerLinkActive]="'active'">
+          <a>News Feed</a>
+        </li>
       </ul>
-
-      
 
       <ul class="follow-me list-inline">
         <li>1,299 people following him</li>
@@ -58,8 +46,3 @@
   *ngIf="showAddFriendsPopup"
   (popupStatus)="showAddFriendsPopup = false"
 ></app-add-friends-popup>
-
-
-
-
-
