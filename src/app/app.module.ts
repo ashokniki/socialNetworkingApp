@@ -1,5 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -34,19 +35,20 @@ import { NewsFeedComponent } from "./components/main-center-content/news-feed/ne
 // Services
 import { FriendsListSection } from "./services/friendsList.services";
 import { newsFeedSection } from "./services/newsFeed.service";
-import { TypeContentComponent } from './components/main-center-content/news-feed/type-content/type-content.component';
-import { TypeImageComponent } from './components/main-center-content/news-feed/type-image/type-image.component';
-import { TypePollComponent } from './components/main-center-content/news-feed/type-poll/type-poll.component';
-import { MainCenterContentComponent } from './components/main-center-content/main-center-content.component';
-import { PostHeaderComponent } from './components/main-center-content/post-header/post-header.component';
-import { CommentSectionComponent } from './components/main-center-content/comment-section/comment-section.component';
-import { PostTypeComponent } from './components/main-center-content/post-type/post-type.component';
-import { PostTypeImageComponent } from './components/main-center-content/post-type/post-type-image/post-type-image.component';
-import { PostTypeContentComponent } from './components/main-center-content/post-type/post-type-content/post-type-content.component';
-import { PostTypePollComponent } from './components/main-center-content/post-type/post-type-poll/post-type-poll.component';
-import { CommentsBoxComponent } from './components/main-center-content/comments-box/comments-box.component';
-import { SubComment2Component } from './components/main-center-content/comments-box/sub-comment1/sub-comment2/sub-comment2.component';
-import { SubComment1Component } from './components/main-center-content/comments-box/sub-comment1/sub-comment1.component';
+import { TypeContentComponent } from "./components/main-center-content/news-feed/type-content/type-content.component";
+import { TypeImageComponent } from "./components/main-center-content/news-feed/type-image/type-image.component";
+import { TypePollComponent } from "./components/main-center-content/news-feed/type-poll/type-poll.component";
+import { MainCenterContentComponent } from "./components/main-center-content/main-center-content.component";
+import { PostHeaderComponent } from "./components/main-center-content/post-header/post-header.component";
+import { CommentSectionComponent } from "./components/main-center-content/comment-section/comment-section.component";
+import { PostTypeComponent } from "./components/main-center-content/post-type/post-type.component";
+import { PostTypeImageComponent } from "./components/main-center-content/post-type/post-type-image/post-type-image.component";
+import { PostTypeContentComponent } from "./components/main-center-content/post-type/post-type-content/post-type-content.component";
+import { PostTypePollComponent } from "./components/main-center-content/post-type/post-type-poll/post-type-poll.component";
+import { CommentsBoxComponent } from "./components/main-center-content/comments-box/comments-box.component";
+import { SubComment2Component } from "./components/main-center-content/comments-box/sub-comment1/sub-comment2/sub-comment2.component";
+import { SubComment1Component } from "./components/main-center-content/comments-box/sub-comment1/sub-comment1.component";
+import { newsServices } from "../app/services/fireBaseNews.service";
 
 @NgModule({
   declarations: [
@@ -85,7 +87,7 @@ import { SubComment1Component } from './components/main-center-content/comments-
     PostTypePollComponent,
     CommentsBoxComponent,
     SubComment1Component,
-    SubComment2Component,
+    SubComment2Component
   ],
   imports: [
     BrowserModule,
@@ -93,9 +95,10 @@ import { SubComment1Component } from './components/main-center-content/comments-
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     ToastrModule.forRoot()
   ],
-  providers: [FriendsListSection, newsFeedSection],
+  providers: [FriendsListSection, newsFeedSection, newsServices],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
