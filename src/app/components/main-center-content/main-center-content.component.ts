@@ -12,6 +12,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 export class MainCenterContentComponent implements OnInit {
   data: any;
   postCallFromGroup: FormGroup;
+  imgTag: any;
   constructor(
     // private NewsFeedSection: newsFeedSection,
     private news: newsServices,
@@ -71,4 +72,6 @@ export class MainCenterContentComponent implements OnInit {
       }
     }
   }
+
+
 }

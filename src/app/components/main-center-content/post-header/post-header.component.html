@@ -1,24 +1,22 @@
 <div>
-<img
-        src="{{data.coverPhoto}}"
-        alt="user"
-        class="profile-photo-md pull-left"
-      />
-      <div class="post-detail">
-        <div class="user-info">
-          <h5>
-            <a href="timeline.html" class="profile-link">{{data.userName}}</a>
-            <span class="following">following</span>
-          </h5>
-          <p class="text-muted">Published a photo about {{data.publishedTime}}</p>
-        </div>
+  <img src="{{profilePhoto(2)}}" alt="user" class="profile-photo-md pull-left" />
+  <div class="post-detail">
+    <div class="user-info">
+      <h5>
+        <a href="timeline.html" class="profile-link">{{data.userName}}</a>
+        <span class="following">following</span>
+      </h5>
+      <p class="text-muted">Published a photo about {{data.publishedTime}}</p>
+    </div>
+    <button (click)="myobservable()">Change pHoto</button>
 
-      </div>
+    <img src="{{profilePhoto(2)}}" alt="user" class="profile-photo-md pull-left" />
+  </div>
 
-       
-        
 
-        <!-- <div class="reaction">
+
+
+  <!-- <div class="reaction">
           <a class="btn text-green"><i class="icon ion-thumbsup"></i> 13</a>
           <a class="btn text-red"><i class="fa fa-thumbs-down"></i> 0</a>
         </div>

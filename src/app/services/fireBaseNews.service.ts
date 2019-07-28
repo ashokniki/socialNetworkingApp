@@ -1,11 +1,23 @@
-import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpHandler } from '@angular/common/http';
-import { Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
+import { Component, OnInit, Injectable } from '@angular/core';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable()
 export class newsServices {
-  constructor(private http: HttpClient) { }
+  subjectobservable = new Subject();
+  myprofilepick: any;
+
+  constructor(private http: HttpClient) {
+    this.myprofilepick = 'https://visionnairecorp.files.wordpress.com/2019/05/250px-iron_man_bleeding_edge.jpg';
+    this.subjectobservable.subscribe((img: string) => {
+      this.myprofilepick = img;
+      console.log('ziraj', this.myprofilepick);
+      // this.id
+    });
+  }
+
+
   // storeServers(servers: any[]) {
   //   const headers = new HttpHeaders({ "Content-Type": "application/json" });
   //   console.log(servers);
@@ -59,4 +71,17 @@ export class newsServices {
         })
       );
   }
+  onlyObservable() {
+    return new Observable(observer => {
+      setTimeout(() => observer.next('https://visionnairecorp.files.wordpress.com/2019/05/250px-iron_man_bleeding_edge.jpg'), 4000);
+    });
+  }
+
+
+  profilePhotoObservable() {
+    return new Observable(observer => {
+      setTimeout(() => observer.next(this.myprofilepick), 2000);
+    });
+  }
+
 }
